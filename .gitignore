@@ -1,0 +1,5 @@
+*
+!CMakeLists.txt
+!*.c
+!*.h
+!.gitignore
