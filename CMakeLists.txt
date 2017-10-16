@@ -11,4 +11,4 @@ add_definitions(-Wall -Wextra -Wredundant-decls -Wno-unused-result -Wno-strict-a
 add_library(wld SHARED wld.c)
 
 install(TARGETS wld DESTINATION lib)
-install(FILES wld.h DESTINATION include)
+install(FILES wld.h wld_types.h DESTINATION include)
